@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+}
+
+.titulo{
+    font-size: 25px;
+    margin: 1em 0;
+    color: white;
+}
+
+.botao{
+    padding: 2em;
+    border: none;
+    border-radius: 12px;
+    margin: 1em 0.5em;
+    width: 200px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+}
+.botao:hover{
+    background:#03406b;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.container{
+   text-align: center;
+    margin: 10em auto;
+}
+
+.botoes__container{
+    text-align: center;
+}
+
+.contador{
+    font-size: 35px;
+    margin: 1em 0;
+}
+
+@media (max-width:750px){
+ body{
+    background: hsla(217, 100%, 50%, 1);
+    color: white;
+ }
+ .botao{
+    width: 20vw;
+    padding: 1em;
+    font-size: 12px;
+    border-radius: 6px;
+ }
+}
